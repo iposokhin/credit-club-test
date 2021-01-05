@@ -1,0 +1,30 @@
+{
+  "include": [
+    "./src/**/*",
+    "./global.d.ts"
+  ],
+  "compilerOptions": {
+    "strict": true,
+    "esModuleInterop": true,
+    "lib": [
+      "dom",
+      "es2017"
+    ],
+    "jsx": "react",
+    "plugins": [
+      {
+        "name": "typescript-plugin-css-modules"
+      }
+    ],
+    "target": "es5",
+    "allowJs": true,
+    "skipLibCheck": true,
+    "allowSyntheticDefaultImports": true,
+    "forceConsistentCasingInFileNames": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "noEmit": true
+  }
+}
