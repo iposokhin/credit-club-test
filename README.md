@@ -1,2 +1,2 @@
 # credit-club-test
-Test task for credit club company. Stack: ts, react, effector
+Test task of credit club company. Stack: ts, react, effector
